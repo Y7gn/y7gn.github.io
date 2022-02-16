@@ -55,13 +55,13 @@ nav a {
 .servicesContainer {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
 }
 /*----------------- about ----------------- */
 section {
-  padding: 100px 200px;
+  padding: 6.25em 12.5em;
 }
 #about {
   width: 100%;
@@ -135,12 +135,12 @@ section {
 }
 
 .card {
-  width: 21.25em;
+  width: 32.4%;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 10px;
   padding: 25px;
-  margin: 15px;
   text-align: center;
+  transition: all 0.7s ease;
 }
 .card img {
   color: #0a67e0;
@@ -155,9 +155,8 @@ section {
   font-size: 1.1rem;
 }
 .card:hover {
-  transform: scale(1.1);
-  transition: smooth;
-  transition: 0.7s ease;
+  transform: scale(1.05);
+  /* transition: smooth; */
 }
 /*----------------- projects ----------------- */
 
@@ -182,14 +181,14 @@ section {
   min-height: 14em;
   background-color: white;
   border: 1px solid #fff;
-  width: 32%;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  width: 32.4%;
+  /* margin-left: 20px; */
+  margin-bottom: 1.25em;
   border-radius: 10px;
+  transition: all 0.7s ease;
 }
 .projectscard:hover {
   transform: scale(1.05);
-  transition: 0.7s ease;
 }
 .cardText {
   padding: 1em;
@@ -208,7 +207,7 @@ section {
 .right {
   text-decoration: none;
   color: #0a67e0;
-  font-size: 20px;
+  font-size: 1.1em;
   font-weight: 550;
 }
 .right:hover {
@@ -218,13 +217,17 @@ section {
 .projectPhoto:hover {
   opacity: 0.9;
 }
+.left {
+  transition: all 0.7s ease;
+}
 .left:hover {
-  letter-spacing: 3px;
-  transition: 0.7s ease;
+  letter-spacing: 1px;
+}
+.effect {
+  transition: all 0.7s ease;
 }
 .effect:hover {
-  letter-spacing: 2px;
-  transition: 0.7s ease;
+  letter-spacing: 1px;
 }
 
 /*----------------- Contact ----------------- */
@@ -262,4 +265,48 @@ section {
 }
 .spanOne {
   cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  section,
+  .serviceHeader {
+    padding: 6.25em 5.5em;
+  }
+  #about {
+    padding: 0;
+  }
+  .aboutContainer {
+    margin-left: 2rem;
+  }
+  nav {
+    padding: 15px 20px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .projectscard {
+    width: 48%;
+  }
+  body {
+    font-size: 10px;
+  }
+  section,
+  .serviceHeader {
+    padding: 6.25em 5.5em;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 19px;
+  }
+  #about {
+    padding: 0;
+  }
+  .aboutContainer {
+    margin-left: 2rem;
+  }
+  nav {
+    padding: 15px 20px;
+  }
+  .social-icons a {
+    font-size: 2.2rem;
+  }
 }
