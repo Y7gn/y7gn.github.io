@@ -75,7 +75,7 @@ section {
   align-items: center;
   /* justify-content: space-around; */
   /* border-radius: 50%; */
-  background: url(./AboutCover.jpg) no-repeat center top fixed;
+  background: url(./AboutCover.jpg);
   background-position: center;
   background-size: cover;
 }
