@@ -75,10 +75,9 @@ section {
   align-items: center;
   /* justify-content: space-around; */
   /* border-radius: 50%; */
-  background: url(./AboutCover.jpg);
+  background: url(./AboutCover.jpg) no-repeat center top fixed;
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
 }
 .aboutContainer {
   position: relative;
