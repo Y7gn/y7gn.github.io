@@ -75,7 +75,7 @@ section {
   align-items: center;
   /* justify-content: space-around; */
   /* border-radius: 50%; */
-  background: url(./AboutCover.jpg) fixed;
+  background: url(./AboutCover.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -342,7 +342,7 @@ section {
   }
   #about {
     padding: 0;
-    background: url(./AboutCover.jpg);
+    /* background: url(./AboutCover.jpg); */
   }
   .aboutContainer {
     margin-left: 2rem;
