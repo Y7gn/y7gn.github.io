@@ -1,0 +1,265 @@
+/*----------------- Global ----------------- */
+.sectionTitle {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 2rem;
+  color: #0a67e0;
+}
+
+/*----------------- nav ----------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  z-index: 999;
+}
+.navigation {
+  display: flex;
+}
+
+nav a {
+  color: #0a67e0;
+  font-size: 1.8em;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.leftNav {
+  text-decoration: none;
+  color: #0a67e0;
+  font-weight: 400;
+  margin-left: 35px;
+  list-style-type: none;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.leftNav:hover {
+  cursor: pointer;
+  color: rgb(7, 0, 109);
+}
+
+.servicesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*----------------- about ----------------- */
+section {
+  padding: 100px 200px;
+}
+#about {
+  width: 100%;
+  background-color: rgb(7, 0, 109);
+  padding: 100px 200px;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* border-radius: 50%; */
+  background: url(./photo/About\ Cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.aboutContainer {
+  position: relative;
+  margin-left: 7rem;
+}
+
+#about h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.1px;
+}
+#about h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #186fe0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#about p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.viewWork {
+  padding: 0.625em 0.9375em;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #186fe0ce;
+  border: none;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.viewWork:hover {
+  background-color: #0a67e0;
+  transform: scale(1.1);
+  transition: smooth;
+  transition: 0.7s ease;
+  background-attachment: fixed;
+  padding: 0.7em 0.9375em;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+/*----------------- service ----------------- */
+.serviceHeader {
+  padding: 150px 200px;
+}
+
+.card {
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  text-align: center;
+}
+.card img {
+  color: #0a67e0;
+  width: 6em;
+}
+.card h3 {
+  color: #0a67e0;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+.card p {
+  font-size: 1.1rem;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: smooth;
+  transition: 0.7s ease;
+}
+/*----------------- projects ----------------- */
+
+/* .projectsCardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+} */
+.projectPhoto {
+  border-radius: 10px;
+}
+.Title {
+  text-align: center;
+  color: #0a67e0;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.projectscard {
+  min-height: 14em;
+  background-color: white;
+  border: 1px solid #fff;
+  width: 32%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.projectscard:hover {
+  transform: scale(1.05);
+  transition: 0.7s ease;
+}
+.cardText {
+  padding: 1em;
+  text-transform: capitalize;
+}
+.bottomcard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.w100 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.right {
+  text-decoration: none;
+  color: #0a67e0;
+  font-size: 20px;
+  font-weight: 550;
+}
+.right:hover {
+  color: rgb(7, 0, 109);
+}
+
+.projectPhoto:hover {
+  opacity: 0.9;
+}
+.left:hover {
+  letter-spacing: 3px;
+  transition: 0.7s ease;
+}
+.effect:hover {
+  letter-spacing: 2px;
+  transition: 0.7s ease;
+}
+
+/*----------------- Contact ----------------- */
+
+.paragraphText {
+  margin-top: 10px;
+  padding: 7px;
+}
+.icon {
+  color: #0a67e0;
+  font-size: 4.5em;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.w5-500 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.five {
+  color: #fff;
+  font-size: 2em;
+}
+.spanOne:hover {
+  color: red;
+}
+.spanOne {
+  cursor: pointer;
+}
