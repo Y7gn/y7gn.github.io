@@ -310,7 +310,6 @@ section {
   }
   #about {
     padding: 0;
-    background: url(./AboutCover.jpg);
   }
   .aboutContainer {
     margin-left: 2rem;
@@ -342,7 +341,6 @@ section {
   }
   #about {
     padding: 0;
-    /* background: url(./AboutCover.jpg); */
   }
   .aboutContainer {
     margin-left: 2rem;
